@@ -2,6 +2,6 @@ module webframe
 
 go 1.15
 
-require gee v0.0.0
+require github.com/Whiteinker/webframe/gee v0.0.0
 
-replace gee => ./gee
+replace github.com/Whiteinker/webframe/gee => C:/Users/LC/Desktop/webframe/gee

@@ -2,7 +2,7 @@ package main
 
 import (
 
-	"gee"
+	"github.com/Whiteinker/webframe/gee"
 	"net/http"
 )
 

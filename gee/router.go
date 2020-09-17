@@ -24,7 +24,7 @@ func newRouter() *router {
 func parsePattern(pattern string) []string {
 	vs := strings.Split(pattern, "/")
 
-	parts := ke([]string, 0)
+	parts := make([]string, 0)
 	for _, item := range vs {
 		if item != "" {
 			parts = append(parts, item)
